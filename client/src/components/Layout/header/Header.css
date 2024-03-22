@@ -1,0 +1,29 @@
+/* HomePage.css */
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff; /* Example background color */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  
+  @media (max-width: 991px) {
+    .profile-name {
+      display: inline-block; 
+    }
+  
+    .profile-circle {
+      margin-right: 5px; 
+    }
+  }
